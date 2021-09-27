@@ -1,0 +1,11 @@
+1. program tersebut  error karena proses inisialisasi seharusnya dilakukan setelah proses deklarasi variabel.  
+2. error karena byte hanya menampung angka dari -128 - 127 sehingga akan terjadi error
+3. 3600
+4. angka1 = 6
+   angka2 = 4
+5. -2 * 4 
+   (-2*4)/2
+   (-2*4)/(3*7)
+   19 + 2 (-2*4/2)
+   19 + 2(-2*4/2) + (3*7)
+6. 22

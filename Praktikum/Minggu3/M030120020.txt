@@ -1,0 +1,27 @@
+1. 1010.0String example
+2. pada layar sebelum dimodifikasi output dikeluarkan secara menyanping sedangkan yang sudah dimodifikasi
+   output ditampilkan ke bawah karena println
+   10
+   10.0
+   String example
+3. 20
+   20.0
+   String example!!
+4. 15
+   15.0
+   String example!!
+5. 15
+   15.0
+   String example!!
+   String example105
+   String example15
+   karena ada string sekaligus int yang dioperasikan sehingga itu merupakan operasi string concatenation
+   dan pada output kedua int diberi tanda kurung sehingga itu merupakan literal kemudian dioperasikan 
+   dengan string contatenation 
+6. karena ' ' + intValue1 merupakan literal, space literalnya adalah char jadi dikonversi ke int dengan
+   nilai 32 karena jumlah karakter ascii ada 32 jadi 32 + 10 = 42
+7. hanya Praktikum nya saja yang dibawa karena sc.next() hanya membaca input hanya sampai spasi
+8. 
+9. mengganti sc.next() dengan sc.nextline() agar dapat dimasukkan nama yang terdiri  lebih dari satu kata
+10.
+ 
