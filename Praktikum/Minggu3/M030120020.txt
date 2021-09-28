@@ -20,8 +20,20 @@
    dengan string contatenation 
 6. karena ' ' + intValue1 merupakan literal, space literalnya adalah char jadi dikonversi ke int dengan
    nilai 32 karena jumlah karakter ascii ada 32 jadi 32 + 10 = 42
-7. hanya Praktikum nya saja yang dibawa karena sc.next() hanya membaca input hanya sampai spasi
-8. 
+7. hanya Praktikum nya saja yang baca karena sc.next() hanya membaca input hanya sampai spasi atau hanya 1 kata
+8. berpengaruh karena adanya error mismatch
 9. mengganti sc.next() dengan sc.nextline() agar dapat dimasukkan nama yang terdiri  lebih dari satu kata
-10.
+10.baris 13: mengambil kata dari index ke 5 yaitu graman
+   baris 14: mengambil kata dengan rentang dari index ke 5 - 6 yaitu gr
+   baris 15: mengubah kata "Pemrograman" menjadi kecil semua "pemrograman"
+   baris 16: mengubah kata "Pemrograman" menjadi kapital semua "PEMROGRAMAN"
+   baris 17: menampilkan huruf m ada di index ke berapa yaitu 2
+   baris 18: menampilkan kata aman ada di index ke berapa yaitu 7
+   baris 19: -1 karena huruf "t" tidak ada didalam kata "Pemrograman"
+11. baris 23 menampilkan angka 123.789 dengan enter
+    baris 24 mengkonversi double ke integer sehingga hasilnya 123
+12. baris 27: menampilkan hasil dari 100/15 dalam tipe data integer yaitu 6
+    baris 28: menampilkan hasil dari a*1.0/b dalam tipe data double yaitu 6.666666666666667
+    baris 29: menampilkan hasil dari a/b dalam tipe data double yaitu 6.666666666666667
+  
  
