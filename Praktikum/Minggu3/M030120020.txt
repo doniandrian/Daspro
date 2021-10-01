@@ -18,8 +18,8 @@
    karena ada string sekaligus int yang dioperasikan sehingga itu merupakan operasi string concatenation
    dan pada output kedua int diberi tanda kurung sehingga itu merupakan literal kemudian dioperasikan 
    dengan string contatenation 
-6. karena ' ' + intValue1 merupakan literal, space literalnya adalah char jadi dikonversi ke int dengan
-   nilai 32 karena jumlah karakter ascii ada 32 jadi 32 + 10 = 42
+6. karena ' ' + intValue1 merupakan literal,  jadi dikonversi ke int dengan
+   nilai 32 karena  karakter spasi dalam ascii ada di urutan 32 jadi 32 + 10 = 42
 7. hanya Praktikum nya saja yang baca karena sc.next() hanya membaca input hanya sampai spasi atau hanya 1 kata
 8. berpengaruh karena adanya error mismatch
 9. mengganti sc.next() dengan sc.nextline() agar dapat dimasukkan nama yang terdiri  lebih dari satu kata
