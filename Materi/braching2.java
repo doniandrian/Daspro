@@ -4,6 +4,10 @@ public class braching2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        int y = input.nextInt();
+
+        
         
         
 
@@ -43,30 +47,30 @@ public class braching2 {
         // System.out.println(hasil);
 
         //no4
-        int angka1 = input.nextInt();
-        int angka2 = input.nextInt();
-        int selisih1 = (21-angka1);
-        int selisih2 = (21-angka2);
+        // int angka1 = input.nextInt();
+        // int angka2 = input.nextInt();
+        // int selisih1 = (21-angka1);
+        // int selisih2 = (21-angka2);
 
-        if (angka1 <=21 && angka2 <=21){
-            if (selisih1 < selisih2){
-                System.out.println(angka1);
-            }else{
-                System.out.println(angka2);
-            }
-        }else if(angka1 <=21 || angka2 <=21){
-            if (angka1 > 21 && angka2 < 21){
-                System.out.println(angka2);
+        // if (angka1 <=21 && angka2 <=21){
+        //     if (selisih1 < selisih2){
+        //         System.out.println(angka1);
+        //     }else{
+        //         System.out.println(angka2);
+        //     }
+        // }else if(angka1 <=21 || angka2 <=21){
+        //     if (angka1 > 21 && angka2 < 21){
+        //         System.out.println(angka2);
 
-            }else{
-                System.out.println(angka1);
-            }
+        //     }else{
+        //         System.out.println(angka1);
+        //     }
             
-        }
+        // }
             
-        else{
-            System.out.println(0);
-        }
+        // else{
+        //     System.out.println(0);
+        // }
 
 
 
