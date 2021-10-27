@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Tugas/Minggu4",
         "Tugas/Minggu3",
         "Praktikum/Minggu4",
         "Latihan/Minggu4",
-        "Tugas/Minggu4"
+        "Latihan/Minggu7"
     ]
 }
