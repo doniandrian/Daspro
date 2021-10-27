@@ -1,0 +1,8 @@
+1. eksekusi minimal statement(s) akan dilakukan sebanyak 1 kali jika kondisi nya terpenuhi jika tidak maka tidak dieksekusi. Misal jika kondisinya false maka 
+   akan dilakukan eksekusi statement minimal 1 kali sampai kondisi berubah menjadi true atau pada saat kondisi sudah tidak terpenuhi.
+2. jumlah eksekusi statement dari skema do while akan di eskekusi minimal sekali baik jika kondisinya true atau false.
+3. jika dimaasukan 40 maka hasilnya adalah 0. jika diganti menggunakan do while akan menjadi 1, karena do while akan mengesekusi minimal sekali walaupun kondisinya false.
+4. jumlah eskekusi adalah 0 jika kondisi tidak terpenuhi, jika tepenuhi maka jumlah eskekusi minimal adalah 1
+5. pada saat i = 9
+6. sebanyak i = n
+7. yang terjadi infinite loop karena tidak ada batasan dalam loopingnya sehingga statement akan terus dilooping (infinite loop)

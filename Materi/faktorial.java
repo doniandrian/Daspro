@@ -9,8 +9,7 @@ public class faktorial {
             hasil *= i;
             System.out.println(hasil);
         }
-        System.out.println("memakai fungsi rekursive");
-
+        
         System.out.println(faktorial(x));
     }
 
