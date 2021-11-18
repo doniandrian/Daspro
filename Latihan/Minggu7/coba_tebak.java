@@ -15,7 +15,7 @@ public class coba_tebak {
         input.close();
         //deklarasi variabel
         String kata_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
-        //char kata_ganti = kata_list.charAt(n-1); 
+       
         char underscore = '_';
         
    

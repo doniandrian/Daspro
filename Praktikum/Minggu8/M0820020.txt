@@ -1,0 +1,4 @@
+1. dilakukan sebanyak 2 kali 
+2. tidak ada statement System.out.println(“Hello World”) yang dijalankan
+3. sum secara berulang selalu ditambah dengan j 
+4. statement sum += j dijalankan sebanyak 1 kali setiap nilai i

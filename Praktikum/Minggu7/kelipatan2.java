@@ -11,7 +11,7 @@ public class kelipatan2 {
         do{
             angka2 = input.nextInt();
             count++;
-        }while(angka2 % angka1 == 0|| angka1 % angka2 ==0);
+        }while(angka2 % angka1 == 0);
 
         System.out.println(count);
 
