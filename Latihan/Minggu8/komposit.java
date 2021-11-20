@@ -26,7 +26,7 @@ public class komposit {
                         
                         
                        
-                        break;
+                        //break;
                     }
               
                 }

@@ -1,31 +1,61 @@
-
+/**
+ * @author Doni Andrian
+ * @version 18 november 2021
+ */
 import java.util.Scanner;
 public class wajik{
     public static void main(String[] args){
         Scanner sc = new Scanner (System.in);
+        //input
         int n = sc.nextInt();
         int a,temp;
-
-        for (int i = 0; i < n; i++){
+        
+        //proses
+        for (int i = 0; i < n; i++){ //lopping untuk melooping banyaknya masukan
             a = sc.nextInt();
-            int l = 0;
-
-            temp = a/2 ;
-            for (int j = 1; j <=temp; j++, l = 0){
+            
+            
+            if (a % 2 == 1){ //ngecek apakah merupakan bilangan ganjil
+                
+                temp = a/2+1; //jika ganjil maka bilangan tersebut dibagi 2 dan ditambah 1
+            
+            
+            
+            int k;
+            //piramid pertama
+            for (int j = 1; j <=temp; j++){ // looping untuk menampilkan piramid pertama yang berdiri
                
-                for (int k = 1; k<=temp-j; k++){
+                for (k = j; k<temp; k++){ //looping untuk menampilkan spasi
                     System.out.print(" ");
                 }
-                while (l != 2 * j -1){
-                    System.out.print("* ");
-                    l++;
+                for(k = 1;k<= 2*j-1;k++){ //looping untuk menampilkan *
+                    System.out.print("*");
+
                 }
-                System.out.println();
+                System.out.println();// enter untuk setiap selesai menghitung looping ke baris yang baru
+                }
+             //piramid kedua
+            
+            for (int j = temp; j>1; j--){ //menampilkan piramid kedua yang terbalik
+               
+                for (k = j; k<=temp; k++){ //looping untuk menampilkan spasi
+                    System.out.print(" ");
+                }
+                for(k = 2;k< 2*j-1;k++){ //looping untuk menampilkan *
+                    System.out.print("*");
+
+                }
+                System.out.println(""); //enter untuk setiap baris baru
+                }
+
+            
             }
+            }
+        
+            
 
             
 
         }
 
     }
-}
