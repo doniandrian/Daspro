@@ -1,0 +1,13 @@
+1. parameter yang dibutuhkan adalah pembilang1, penyebut1, pembilang2, penyebut2 keempatnya merupakan bilangan integer 
+2. keluarannya adalah hasil dari penjumlahan A + B 
+3. public static      
+4. pertama buat method fraction bertipe double dengan perameter pembilang1, penyebut1, pembilang2, penyebut2 keempatnya merupakan bilangan integer 
+   kemudian deklarasi variabel hasil (double)
+   lalu buat variabel penyebut3 yang diisi hasil kali dari penyebut1 dan penyebut2
+   variabel pembilang3 untuk menyimpan penyebut1 * pembilang2 + penyebut2
+   hasilnya adalah pembilang3 dibagi penyebut3
+   return hasil
+   lalu buat method mainnya dimana method tersebut akan memanggil method fraaction
+   tampilkan fraction(a,b,c,d)
+5. hasilnya adalah 0.75
+

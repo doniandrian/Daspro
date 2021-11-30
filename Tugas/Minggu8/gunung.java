@@ -1,55 +1,64 @@
 /**
  * @author Doni Andrian
- * @version 20 november 2021
+ * @version 21 november 2021
  */
 
-import java.util.Scanner;
+import java.util.Scanner;  
+                                                                
 public class gunung {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
+        //input
 
-        //int n = sc.nextInt();
-        int  a = 4,b  = 3;
-        int k;
-        String hasil = "";
-        int j;
-
-        for (int i = 1; i <= b; i++) {
-            k = 0;
-            for (j = 1;j<=b-i;j++){
-
-
-                hasil += "  ";
-            }
-            while (k != 2 * i - 1) {
-                hasil += "* ";
-                k++;
-            
-             }
-            if (i<=b-1){
-                hasil += "\n";
-
-            }
-            
-
-             
-             
-            }
-            for (int i = 1; i <= a; i++) {
-                System.out.println(hasil);
-
-            }
-            
-            // for (int i = 1; i <= a; i++) {
-            //     System.out.print(hasil);
-            // }
-            
+        int n = sc.nextInt();
+        //deklarasi
+        int  a,b;
+        int i;
         
-        // for (int i = 0; i < n; i++) {
-        //     a = sc.nextInt();
-        //     b = sc.nextInt();
+        String hasil = "";
+        
+        for (int t = 0; t < n; t++) { //looping untuk banyaknya test kasus
+            //input
+            a = sc.nextInt();
+            b = sc.nextInt();
+        
+            //proses    
+            for (i = 1; i <= b; i++) { //untuk melooping banyaknya baris
+                for (int f = 1; f <= a; f++) {//untuk melooping banyaknya segitiga ke kanan
+                    for (int j = 1; j <= b-i; j++) {// untuk melooping spasinya
+                        
+                        if (f >= 2){ //jika f >= 2 maka spasi akan di print sebanyak 2 kali
+                            hasil += "  ";
+                        }else{ //jika f <= 1 spasi akan di print 1 kali ini untuk spasi pertama kali palin kiri
+                            hasil += " "; 
+                        }
+
+                    }
+                    for (int k = 1; k <= 2*i-1; k++) { //looping untuk menampilkan @ selama k <= 2 * i -1
+                       hasil += "@";
+                        
+    
+                    }
+                    
+
+                }
+               hasil+= "\n"; //enter untuk membuat baris baru
+               
+                
+            }
             
-        // }
+                
+               
+                
+
+                
+
+        }
+        System.out.print(hasil);
+       
+        
+            
+            
         
     }
     

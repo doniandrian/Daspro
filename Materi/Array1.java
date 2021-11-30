@@ -45,10 +45,10 @@ public class Array1
             {
 
                 max = a[i];
-                System.out.println(max);
+                
             }
         }
-        System.out.println("Maximum value:"+max);
+        System.out.println("Maximum value: "+max);
     }
 }
 

@@ -1,17 +1,34 @@
 public class Array3 {
     public static void main(String[] args) {
-        System.out.println("mencari nilai terbesar");
+        String [] word = {"nama", "nami", "kelas"};
+        System.out.println(ceknama(word));
 
-        //int [] dataArray = {2,5,4,6,7,8,1};
-        //int a = dataArray.length;
-        //for (int i=0; i<a;i++) {
-           // int angka_terbesar = dataArray[0];
-           // if (angka_terbesar > dataArray[i]) {
-                //angka_terbesar = dataArray[i];
+        int [] nilai = { 1,2,3};
+        System.out.println(ceknilai(nilai));
 
-          //  }
+        
+    }
+    public static String ceknama(String [] nama){
+        for (String kata:nama){
+            if (kata.equals("name")){
+                return kata;
+            }
 
-          //  }
-      //  }
+        }
+        return null;
+    }
+    public static int ceknilai(int [] n){
+        int count = 0;
+        for (int angka:n){
+            if (angka%2!=0){
+                count++;
+            }
+        }
+        return count;
+
+    }
+    public static String cekrata(String [] kata,int[]n){
+        return null;
+
     }
 }

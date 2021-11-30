@@ -66,12 +66,12 @@ public class Matrix {
             for (int j = 0;j<kolom_b;j++){
                 for (int k=0;k<kolom_a;k++){
                     kali [i][j] += matrix_a[i][k]*matrix_b[k][j];
-                    tampilarray(kali);
-                    System.out.println(" ");
+                    //tampilarray(kali);
+                   // System.out.println(" ");
                 }
             }
         }
-       // tampilarray(kali); // penampilkan hasil perkalian
+        tampilarray(kali); // penampilkan hasil perkalian
 
     }
 
