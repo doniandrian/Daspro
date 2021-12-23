@@ -51,9 +51,10 @@ public class dodo_dan_kunci_ajaib2 {
                if(count==n*n){
                 System.out.print(hasil);
             }
-            if(count<n*n){
-                System.out.print(0);
-            }
+            
+        }
+        if(count<n*n){
+            System.out.println(0);
         }
 
     }
