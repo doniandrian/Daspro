@@ -1,0 +1,36 @@
+1.saat a = 2, b = 3
+looping pertama
+i = 1
+res = 3
+looping kedua
+i = 2
+res = 6
+
+2.
+public int perpangkatan (int a,int b){
+	int res = 1;
+	for(int i = 1;;i<=b;i++){
+		res *= a
+	}
+	return res;
+}
+3.
+public int jumlahDigit(int a){
+	int res = 0;
+	while(a >= 0){
+ 	 a /= 10;
+ 	 res += a % 10;
+ 	 System.out.println(a);
+ 	 System.out.println(res);
+ 	 }
+ return res;
+}
+4.
+public int jumlahDigit(int a){
+	int res = 0;
+	while(a!=0){
+ 	 a /= 10;
+ 	 res ++;
+ 	 }
+ return res;
+}

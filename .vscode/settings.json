@@ -2,8 +2,13 @@
     "java.project.sourcePaths": [
         "Tugas/Minggu4",
         "Tugas/Minggu3",
-        "Praktikum/Minggu4",
+        "Tugas/Minggu14",
+        "Tugas/Minggu13",
+        "Minitest/Minggu14",
+        "Minitest/Minggu11",
+        "Latihan/Minggu7",
         "Latihan/Minggu4",
-        "Latihan/Minggu7"
+        "Latihan/Minggu14",
+        "Quiz/Quiz4"
     ]
 }

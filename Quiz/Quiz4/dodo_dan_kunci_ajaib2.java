@@ -1,7 +1,7 @@
 
 /**
  * @author Doni Andrian
- * @version 17 december 2021
+ * @version 11 januari 2021
  */
 
 import java.util.Scanner;
@@ -15,12 +15,13 @@ public class dodo_dan_kunci_ajaib2 {
             int hasil = 0;
             int count = 0;
             int k = sc.nextInt();//bnyk lubangkunci
-            int n = sc.nextInt();//panjang matrix
-            int matrix [][][] = new int[k][n+1][n+1];
+            int n = sc.nextInt();//panjang baris matrix
+            int m = sc.nextInt();// panjang kolom matrix
+            int matrix [][][] = new int[k][n][m];
             int matrix2[][] = new int[n][n];
-            for(int j = 0; j <= k; j++){
+            for(int j = 0; j < k; j++){
                 for(int h = 0; h < n; h++){
-                    for(int x = 0; x < n; x++){
+                    for(int x = 0; x < m; x++){
                         matrix[j][h][x] = sc.nextInt();
                     }
                     
@@ -28,31 +29,39 @@ public class dodo_dan_kunci_ajaib2 {
                 }
 
                 
-            }
+            }//input untuk anakkunci
             for(int d = 0; i < t; i++){
                 for(int j = 0; j < t; j++){
                     matrix2[d][j] = sc.nextInt();
                 }
             }
             
-            int matrix3[][] = new int[n][n];
+            //akan dicek setiap anankunci yang sudah ditukar kolomnya,barisnya dan diputar arahnya
             for(int p = 0; p < 3; p++){
+                int matrix3[][] = new int[n][n];
                count = 0;
-                
+                int temp = 0;
+                boolean res = true;
                matrix3 = swapcol(matrix2);
-               for(int r = 0; r < n; r++){
-                   for(int c = 0; c < n; c++){
-                       if(matrix3[r][c]==matrix[0][r][c]){
-                           count++;
-                       }
-                   }
+               for(int j = 0; j < k; j++){
+                for(int r = 0; r < n; r++){
+                    for(int c = 0; c < n; c++){
+                        if(matrix3[r][c]==matrix[j][r][c]){
+                            count++;
+                            
+                        }
+                    }
+                }
+                
                }
+               
                hasil++;
                if(count==n*n){
                 System.out.print(hasil);
             }
             
         }
+
         if(count<n*n){
             System.out.println(0);
         }
@@ -61,6 +70,8 @@ public class dodo_dan_kunci_ajaib2 {
 }
 
     public static int[][]swapcol(int[][] matrix) {
+        //method untuk swap kolom
+
         for (int i = 0; i < matrix.length; i++) {
 
             int temp = matrix[i][0];
@@ -72,6 +83,7 @@ public class dodo_dan_kunci_ajaib2 {
     }
 
     public static int[][] swaprows(int[][] matrix) {
+        //method untuk swap baris
         for (int i = 0; i < matrix.length; i++) {
 
             int temp = matrix[0][i];
@@ -83,6 +95,7 @@ public class dodo_dan_kunci_ajaib2 {
     }
 
     public static int[][] putararrah(int[][] matrix) {
+        //method untuk memutar kunci 2 kali
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i; j < matrix.length; j++) {
                 int temp = matrix[i][j];
@@ -120,3 +133,4 @@ public class dodo_dan_kunci_ajaib2 {
         return matrix;
     }
 }
+
